@@ -46,7 +46,8 @@ public class MQTTentity {
         this.timeTopic = timeTopic;
     }
 
-    public MQTTentity() {
+    public MQTTentity(String timeTopic) {
+        this.timeTopic = timeTopic;
     }
 
     public MQTTentity(String host, String userName, String passWord, String timeTopic) {
